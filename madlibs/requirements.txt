@@ -1,0 +1,6 @@
+# No external dependencies required!
+# The GUI version uses only built-in tkinter which comes with Python
+# The console version uses only built-in modules
+
+# Optional: For enhanced features, you could install:
+# colorama==0.4.6  # For colored text in console version
