@@ -216,7 +216,7 @@ with st.sidebar:
         st_lottie(lottie_book, height=150)
     
     st.markdown("### 🧭 MENU")
-    nav = st.radio("", ["📚 View Library", "➕ Add New Book", "🔍 Search", "📊 Stats"], label_visibility="collapsed")
+    nav = st.radio("Navigation", ["📚 View Library", "➕ Add New Book", "🔍 Search", "📊 Stats"], label_visibility="collapsed")
     
     st.markdown("---")
     st.markdown("### 💡 Quick Tip")
@@ -355,4 +355,3 @@ elif nav == "📊 Stats":
 
 # Footer
 st.markdown("<br><br><div style='text-align: center; color: #64748b; font-size: 0.8rem;'>Personal Library Manager v2.0 • Designed for Bibliophiles</div>", unsafe_allow_html=True)
->", unsafe_allow_html=True)
